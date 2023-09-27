@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="./images/logo.png" alt="" />
+      </div>
+      <div class="nav_items mt-3">
+        <ul>
+          <li><a href="#">Chat with Us</a></li>
+          <li><a href="#">Sign Up</a></li>
+          <li class="nav_btn"><a href="#">Login to Restaurant Portal</a></li>
+        </ul>
+      </div>
+      <div class="small_screen mt-3">
+        <a href="#">Login to Restaurant Portal</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid hero">
+    <div class="row">
+      <div class="col-12 col-md-7 col-lg-7 p-0">
+        <div class="hero-img">
+          <!-- <img src="./images/hero.png" class="img-fluid" alt="hero img" /> -->
+          <a href="" class="hero_btn">
+            <img src="./Images/Vector.png" alt="">
+          </a>
+        </div>
+
+      </div>
+      <!-- <div class="col-md-1"></div> -->
+      <div class="col-12 col-md-5 col-lg-5">
+        <div class="hero_content">
+          <h1>
+            <span>No</span> Commission, <br />
+            No <span>Hidden Charges</span>
+          </h1>
+          <p>
+            Save up to 50% on your online presence and <br />
+            delivery cost
+          </p>
+          <div class="google_store">
+            <div class="store">
+              <a href="#">
+                <img src="./images/appstore.png" alt="" />
+              </a>
+            </div>
+            <div class="google">
+              <a href="#">
+                <img src="./images/googleplay.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="discover_more mt-5">
+            <a href="#">
+              <img src="./images/next-btn.png" alt="" />
+              <span>Discover More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="delivery">
+          <h1 class="mb-4">Cut Down Delivery Cost</h1>
+          <p class="mb-4">
+            Cut down your delivery cost with TastyHub <br />
+            Multidrop Service
+          </p>
+          <button type="button" class="delivery__btn">
+            Get Started &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fa fa-arrow-right arrow_btn" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="delivery__image">
+          <img src="./images/3.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid annually__container mb-5">
+    <div class="row">
+      <col-1></col-1>
+      <div class="annuall_margin col-11 col-sm-10 col-md-5 col-lg-5">
+        <div class="annual__total mx-sm-auto">
+          <p class="annual__para text-light">TastHasty could save you</p>
+
+          <div class="annual__month">
+            <div class="month_checkbox">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <h4><b>£266.60</b></h4>
+                </label>
+              </div>
+            </div>
+
+            <div class="month_monthly">
+              <p class="annu_year">Monthly</p>
+            </div>
+          </div>
+          <div class="annual__year">
+            <div class="month_checkbox">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                <label class="form-check-label" for="flexCheckChecked">
+                  <h4><b>£266.60 </b></h4>
+                </label>
+              </div>
+            </div>
+
+            <div class="month_monthly">
+              <p class="annu_year">Annually</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="save__annual col-12 col-sm-12 col-md-5 col-lg-4 ms-lg-4 ps-lg-4">
+        <h1 class="mb-4">Save £1000's Annually</h1>
+        <p class="mb-4">
+          Save £1000's of pounds annually by using TastyHasty to deliver
+          orders received through JustEat, UberEats & other platforms
+        </p>
+        <div class="orders_all">
+          <div class="orders_per-month">
+            <p>Orders per month</p>
+          </div>
+          <div class="orders_range">
+            <div class="slidecontainer">
+              <input type="range" min="40" max="100" value="70" class="slider" id="range1"
+                oninput="updateValue('range1', 'total_value1')">
+            </div>
+          </div>
+          <div class="orders_total">
+            <p id="total_value1">2000</p>
+          </div>
+        </div>
+
+        <div class="orders_all">
+          <div class="orders_per-month">
+            <p>Avg. Order Value</p>
+          </div>
+          <div class="orders_range">
+            <div class="slidecontainer">
+              <input type="range" min="1" max="100" value="50" class="slider" id="range2"
+                oninput="updateValue('range2', 'total_value2')">
+            </div>
+          </div>
+          <div class="orders_total">
+            <p id="total_value2">2000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="book_delivery">
+          <h1 class="mb-4">Book a driver</h1>
+          <p class="mb-4">
+            Book a delivery driver from $6 an hour and $1 <br />
+            commission per delivery
+          </p>
+          <button type="button" class="delivery__btn">
+            Get Started &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="delivery__img">
+          <a href="" class="driver_btn">
+            <img src="./Images/Vector.png" alt="driver_btn">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="subscription container-fluid">
+    <div class="row">
+      <h1 class="text-center pt-5 pb-5">TastyHasty Subscription</h2>
+    </div>
+    <div class="row d-flex  justify-content-center mt-5">
+      <div class="col-lg-10">
+        <div class="row d-flex  justify-content-center">
+
+
+          <div class="col-sm-9 col-md-4 col-lg-3 ">
+            <div class="card1">
+              <h2>$45 <span>/month</span></h2>
+              <h4>Delivery Plan</h4>
+              <p>
+                Facilisi risus a semper amet sed convallis pulvinar. Amet massa.
+              </p>
+              <div class="hr_border"></div>
+              <div class="check_tick mt-3">
+                <input class="form-check-input" type="checkbox" value="" id="check1" checked />
+                <p>Integer cursus et</p>
+              </div>
+              <div class="check_tick">
+                <input class="form-check-input" type="checkbox" value="" id="check1" checked />
+                <p>Nunc sagittis</p>
+              </div>
+              <div class="check_tick">
+                <input class="form-check-input" type="checkbox" value="" id="check1" checked />
+                <p>Non at diam pharetra</p>
+              </div>
+
+              <div class="card_btn">
+                <button>
+                  Get Started &nbsp; &nbsp; &nbsp;
+                  <i class="fa fa-arrow-right arrow_btn" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-sm-9 col-md-4 col-lg-3 ">
+            <div class="card_data">
+              <div class="">
+                <h4 class="card2_title">RECOMMENDED</h4>
+              </div>
+              <div class="card2">
+                <div class="card2_content">
+                  <h2 class="card2_price">$60 <span>/month</span></h2>
+                  <h4>Online Plan</h4>
+                  <p>Lacus sem non platea varius justo tristique. A eu cursus.</p>
+                  <div class="hr_border"></div>
+                  <div class="check_tick2 mt-3">
+                    <input class="form-check-input" type="checkbox" value="" id="check1" checked />
+                    <p>Semper aliquet</p>
+                  </div>
+                  <div class="check_tick2">
+                    <input class="form-check-input" type="checkbox" value="" id="check1" checked />
+                    <p>Morbi nulla</p>
+                  </div>
+                  <div class="check_tick2">
+                    <input class="form-check-input" type="checkbox" value="" id="check1" checked />
+                    <p>Donec ultrices nunc</p>
+                  </div>
+                  <div class="check_tick2">
+                    <input class="form-check-input" type="checkbox" value="" id="check1" checked />
+                    <p>Sed sociis non</p>
+                  </div>
+
+                  <div class="card2_btn">
+                    <button class="beero">
+                      Get Started &nbsp; &nbsp; &nbsp; &nbsp;
+                      <i class="fa fa-arrow-right arrow_btn" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-sm-9 col-md-4 col-lg-3  ">
+            <div class="card1 card3">
+              <h2>$75 <span>/month</span></h2>
+              <h4>Complete Plan</h4>
+              <p>
+                Sagittis praesent facilisi cras in potenti velit. Ut sit nullam sit.
+              </p>
+              <div class="hr_border"></div>
+              <div class="check_tick mt-3">
+                <input class="form-check-input" type="checkbox" value="" id="check1" checked />
+                <p>Sed ac amet massa</p>
+              </div>
+              <div class="check_tick">
+                <input class="form-check-input" type="checkbox" value="" id="check1" checked />
+                <p>Quis eu libero nam</p>
+              </div>
+              <div class="check_tick">
+                <input class="form-check-input" type="checkbox" value="" id="check1" checked />
+                <p>Vitae quis lectus sed</p>
+              </div>
+
+              <div class="card_btn">
+                <button>
+                  Get Started &nbsp; &nbsp; &nbsp;
+                  <i class="fa fa-arrow-right arrow_btn" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center py-5">Frequently Asked Questions</h2>
+        </div>
+      </div>
+      <div class="row">
+        <dvi class="col-md-12">
+          <div class="bg-white border Faqs mx-auto">
+            <div class="accordion accordion-flush border-top border-start border-end" id="myAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne"> <button
+                    class="accordion-button collapsed border-0 p-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"><b> A
+                      digital agency is
+                      a business</b>
+                  </button> </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse border-0"
+                  aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                  <div class="accordion-body px-4 py-0 pb-5 text-secondary">
+                    <p>Digital marketing efforts, instead of handling in-house. They can provide
+                      your business with a variety of digital
+                      solutions to promote your product or service online and help you hit your
+                      marketing goals and grow your business.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne"> <button
+                    class="accordion-button collapsed border-0 p-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"><b> Hire
+                      to outsource
+                      your
+                      digital </b>
+                  </button> </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse border-0"
+                  aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                  <div class="accordion-body px-4 py-0 pb-5 text-secondary">
+                    <p>Digital marketing efforts, instead of handling in-house. They can provide
+                      your business with a variety of digital
+                      solutions to promote your product or service online and help you hit your
+                      marketing goals and grow your business.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne"> <button
+                    class="accordion-button collapsed border-0 p-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><b>
+                      Marketing
+                      efforts</b>
+                  </button> </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse border-0"
+                  aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                  <div class="accordion-body px-4 py-0 pb-5 text-secondary">
+                    <p>Digital marketing efforts, instead of handling in-house. They can provide
+                      your business with a variety of digital
+                      solutions to promote your product or service online and help you hit your
+                      marketing goals and grow your business.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne"> <button
+                    class="accordion-button collapsed border-0 p-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"> <b>
+                      Can provide your
+                      business</b>
+                  </button> </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse border-0"
+                  aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                  <div class="accordion-body px-4 py-0 pb-5 text-secondary">
+                    <p>Digital marketing efforts, instead of handling in-house. They can provide
+                      your business with a variety of digital
+                      solutions to promote your product or service online and help you hit your
+                      marketing goals and grow your business.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </dvi>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-0">
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="footer-container d-flex flex-column justify-content-center align-items-center">
+            <img src="Images/footer.png" class="img-fluid">
+            <p class="mt-5">Save up to 50% on your online presence <br>and delivery cost</p>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <div class="row mx-0">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+              <div class="d-flex flex-column justify-content-center align-items-center">
+                <ul class="footer-link">
+                  <h4>Quick Links</h4>
+                  <a href="">
+                    <li>About us </li>
+                  </a>
+                  <a href="">
+                    <li> Privacy Policy </li>
+                  </a>
+                  <a href="">
+                    <li>Terms & Condition </li>
+                  </a>
+                  <a href="">
+                    <li>Add your restaurant</li>
+                  </a>
+                  <a href="">
+                    <li>Deliver with us</li>
+                  </a>
+                  <a href="">
+                    <li>Loyalty Rewards</li>
+                  </a>
+                  <a href="">
+                    <li>Referral</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+              <div class="d-flex flex-column justify-content-center align-items-center">
+                <ul class="footer-link">
+                  <h4>Cuisines</h4>
+                  <a href="">
+                    <li>Pizza </li>
+                  </a>
+                  <a href="">
+                    <li> Fish&nbsp;&&nbsp;Chips </li>
+                  </a>
+                  <a href="">
+                    <li> Fast Food </li>
+                  </a>
+                  <a href="">
+                    <li>Chinese</li>
+                  </a>
+                  <a href="">
+                    <li>Thai </li>
+                  </a>
+                  <a href="">
+                    <li>Chicken</li>
+                  </a>
+                  <a href="">
+                    <li>Burger</li>
+                  </a>
+                  <a href="">
+                    <li>Desert</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+              <div class="footer_brand_link d-flex flex-column justify-content-center align-items-center">
+                <ul class="footer-link">
+                  <h4>Follow Us</h4>
+                  <div class="footer_icons">
+                    <i class="fa fa-facebook-square me-3 mt-3" aria-hidden="true"></i>
+                    <span>Facebook</span><br>
+                    <i class="fa fa-twitter me-3 mt-3" aria-hidden="true"></i><span>Twitter</span>
+                    <br>
+                    <i class="fa fa-linkedin me-3 mt-3" aria-hidden="true"></i><span>LinkedIn
+                    </span><br>
+                    <i class="fa fa-instagram me-3 mt-3" aria-hidden="true"></i><span>Instagram</span><br>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+              <div class="footer_app d-flex flex-column justify-content-center align-items-center">
+                <h4>Download the App</h4>
+                <img src="Images/app (1).png" class="img-fluid mt-4">
+                <img src="Images/google.png" class="img-fluid mt-4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    function updateValue(rangeId, totalId) {
+      var rangeValue = document.getElementById(rangeId).value;
+      var total = rangeValue * 20; // calculate the total value based on the range value
+      document.getElementById(totalId).innerHTML = total; // update the value of the <p> element
+    }
+  </script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
