@@ -50,6 +50,7 @@
       border-radius: 50px;
       height: 10px;
     }
+    
     input[type='range']::-webkit-slider-thumb {
 
       width: 10px;
